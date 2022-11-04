@@ -1,4 +1,4 @@
-# :woman_in_manual_wheelchair: MiscWeb :desktop_computer: banana
+# :woman_in_manual_wheelchair: MiscWeb :desktop_computer:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/50996658/199857947-10fe37f5-c1e0-4589-8275-f7db319e2fd6.png" width="60%" height="60%" title="Next JS" />&nbsp;&nbsp;
 
 &nbsp;&nbsp;&nbsp; O MiscWeb consiste em uma plataforma web onde os alunos do curso de Medicina do Centro Universitário do Estado do Pará (CESUPA) podem ter acesso às mais diversas informações sobre a Unidade Básica de Saúde em que atuam na disciplina Módulo de Interação em Saúde na Comunidade (MISC). As informações são apresentadas de forma facilitada a fim de promover o melhor ensino desta disciplina aos alunos do curso de Medicina e assim oferecer melhor suporte e auxílio aos pacientes das comunidades assistidas.
