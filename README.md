@@ -1,23 +1,25 @@
-# :woman_in_manual_wheelchair: MiscWeb :desktop_computer:
+# :woman_in_manual_wheelchair: MiscWeb :desktop_computer
 
 &nbsp;&nbsp;&nbsp; O MiscWeb consiste em uma plataforma web onde os alunos do curso de Medicina do Centro Universitário do Estado do Pará (CESUPA) podem ter acesso às mais diversas informações sobre a Unidade Básica de Saúde em que atuam na disciplina Módulo de Interação em Saúde na Comunidade (MISC). As informações são apresentadas de forma facilitada a fim de promover o melhor ensino desta disciplina aos alunos do curso de Medicina e assim oferecer melhor suporte e auxílio aos pacientes das comunidades assistidas.
 
-&nbsp;&nbsp;&nbsp; A aplicação em si, consiste de uma plataforma em que é disponibilizada informações baseadas na portaria nº 2.436, de 21 de setembro de 2017, sobre as diretrizes para a organização da Atenção Básica, no âmbito do Sistema Único de Saúde (SUS), a partir dos seguintes campos: 
+&nbsp;&nbsp;&nbsp; A aplicação em si, consiste de uma plataforma em que é disponibilizada informações baseadas na portaria nº 2.436, de 21 de setembro de 2017, sobre as diretrizes para a organização da Atenção Básica, no âmbito do Sistema Único de Saúde (SUS), a partir dos seguintes campos:
+
 - Atenção Primária em Saúde;
 - Territorialização;
 - Estratégia Saúde da Família;
 - Cadastro Individual e Familiar;
-- Redes de atenção à Saúde; 
+- Redes de atenção à Saúde;
 - Tipos de Equipe de Atenção Primária.
 
 ## 🚀 Onde acessar?
+
 &nbsp;&nbsp;&nbsp; Nossa aplicação poderá ser acessada a partir de um futuro endereço de URL na World Wide Web {ex: www.miscweb.com}, entretanto em função de apoio à filosofia do código aberto, segue o passo a passo para rodar o projer]to em sua maquina.
 
 &nbsp;&nbsp;&nbsp; Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
 ## 📋 Pré-requisitos
 
-### Tecnologias e conhecimentos *imprescindíveis* para a instalação e/ou uso do software:
+### Tecnologias e conhecimentos *imprescindíveis* para a instalação e/ou uso do software
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" height="40" title="Next JS" />&nbsp;&nbsp;Next JS: https://nextjs.org/docs
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40" height="40" title="VSCode" />&nbsp;&nbsp;VSCode: https://code.visualstudio.com/download
@@ -26,17 +28,19 @@
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" height="40" title="Javascript" />&nbsp;&nbsp;JavaScript: https://www.javascript.com/learn/strings
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" title="Node JS" />&nbsp;&nbsp;Node JS: https://nodejs.org/en/
 
-### Tecnologias e conhecimentos *importantes* para a instalação e/ou uso do software:
+### Tecnologias e conhecimentos *importantes* para a instalação e/ou uso do software
+
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" height="40" title="HTML5" />&nbsp;&nbsp;HTML5: https://developer.mozilla.org/pt-BR/docs/Web/HTML
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" width="40" height="40" title="Markdown" />&nbsp;&nbsp;Markdown: https://www.google.com/intl/pt-BR/chrome/
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" width="40" height="40" title="Yarn" />&nbsp;&nbsp;Yarn: https://www.google.com/intl/pt-BR/chrome/
 
-### Tecnologias e conhecimentos *auxiliares* para a instalação e/ou uso do software:
+### Tecnologias e conhecimentos *auxiliares* para a instalação e/ou uso do software
+
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" width="40" height="40" title="ESLint" />&nbsp;&nbsp;ESLint: https://eslint.org/
 - <img src="https://cdn.worldvectorlogo.com/logos/prettier-1.svg" width="40" height="40" title="ESLint" />&nbsp;&nbsp;Prettier: https://prettier.io/
 - <img src="https://cdn0.iconfinder.com/data/icons/siberian-husky-emoticons-1/512/Naughty-Emoji-Emotion-Face-Expression-Feeling_1-512.png" width="40" height="40" title="ESLint" />&nbsp;&nbsp;Husky: https://typicode.github.io/husky/#/
 
-### Tecnologias *recomendadas para desenvolver e estudar em grupo*:
+### Tecnologias *recomendadas para desenvolver e estudar em grupo*
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" title="Git" />&nbsp;&nbsp;Git: https://www.google.com/intl/pt-BR/chrome/
 - <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" width="40" height="40" title="GitHub" />&nbsp;&nbsp;GitHub: https://www.google.com/intl/pt-BR/chrome/
@@ -44,7 +48,8 @@
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" width="40" height="40" title="Trello" />&nbsp;&nbsp;Trello: https://www.google.com/intl/pt-BR/chrome/
 
 ## 📝 Protótipo
-&nbsp;&nbsp;&nbsp; O protótipo é constituído de uma Landing Page, como página inicial, onde será possível ter uma noção geral do que se trata o projeto, além de três principais opções de páginas de deconteudo: *_SUS, SDF, Ações à comunidade_*.
+
+&nbsp;&nbsp;&nbsp; O protótipo é constituído de uma Landing Page, como página inicial, onde será possível ter uma noção geral do que se trata o projeto, além de três principais opções de páginas de deconteudo: **SUS, SDF, Ações à comunidade**.
 
 <div>
 Foi desenvolvido no software focado em prototipagem, Figma<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40" title="Figma" /></div>
@@ -57,9 +62,7 @@ Foi desenvolvido no software focado em prototipagem, Figma<img src="https://cdn.
 |      |                                                              |      |
 | </a> |                                                              |      |
 
- ### ↑↑↑↑↑Link do protótipo navegável↑↑↑↑↑
-
-
+### ↑↑↑↑↑Link do protótipo navegável↑↑↑↑↑
 
 ## 🛠️ Construído com
 
