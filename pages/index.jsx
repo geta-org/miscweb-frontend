@@ -13,7 +13,7 @@ export default function Index() {
       <main className="container">
         <nav>
           <ul>
-            <a className="pagina">Clique para entrar</a>
+            <a className="pagina">Pressione para entrar</a>
             <div>
               <a href="/home">
                 <Image
