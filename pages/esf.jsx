@@ -116,6 +116,18 @@ export default function Esf() {
           <div>
             <Image src={esfHome} style={ftEsf} alt="Logo ESF" />
           </div>
+          <div className="titulo2">
+              <h1>Estratégia Saúde da Família ESF</h1>
+              <h3>Introdução:</h3>
+            </div>
+            <div className="texto">
+              <h2>Visa à reorganização da atenção primária no País, de acordo com os preceitos do SUS. 
+                É uma estratégia de expansão, qualificação e consolidação da atenção primária por favorecer 
+                uma reorientação do processo de trabalho com maior potencial de aprofundar os princípios, 
+                diretrizes e fundamentos da atenção primária, ampliando a resolutividade e impacto na situação 
+                de saúde das pessoas e coletividades, além de propiciar uma importante relação custo-efetividade.
+              </h2>
+            </div>
           <p className="description">
             <code>MiscWeb-Corporation™ </code>
           </p>
