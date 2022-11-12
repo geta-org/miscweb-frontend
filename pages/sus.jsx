@@ -116,6 +116,15 @@ export default function Sus() {
           <div>
             <Image src={susHome} style={ftSus} alt="Logo SUS" />
           </div>
+          <div className="titulo2">
+              <h1>Sistema Único de Saúde SUS</h1>
+              <h3>Introdução:</h3>
+            </div>
+            <div className="texto">
+              <h2>É um dos maiores e mais complexos sistemas de saúde pública do mundo, abrangendo desde o simples atendimento para aferição da pressão arterial, por meio da Atenção Primária, até o transplante de órgãos, garantindo acesso integral, universal e gratuito para toda a população do país.  
+                <p>A atenção integral à saúde passou a ser um direito de todos os brasileiros, desde a gestação e por toda a vida, com foco na saúde com qualidade de vida, visando a prevenção e a promoção da saúde.</p>
+              </h2>
+            </div>
           <p className="description">
             <code>MiscWeb-Corporation™ </code>
           </p>
