@@ -109,9 +109,6 @@ export default function Acoes() {
             </div>
 
             <div className="titulo">Sua plataforma de aprendizado médico</div>
-            <div className="titulo2">
-              Ações desenvolvidas junto á comunidade
-            </div>
           </div>
         </div>
         <main>
@@ -122,6 +119,12 @@ export default function Acoes() {
               alt="Imagem Ações á Comunidade"
             />
           </div>
+          <div className="titulo2">
+              <h1>Ações desenvolvidas junto à comunidade</h1>
+              <h3>Médico na Atenção Primária:</h3>
+              <h4>O médico generalista ou especialista em Medicina de Família e Comunidade realiza consultas clínicas na Unidade Básica de Saúde, domicílios e/ou demais espaços comunitários(escolas, associações, entre outros); 
+                <p>Em conformidade com protocolos, diretrizes clínicas e terapêuticas, bem como outras normativas técnicas estabelecidas pelos gestores (federal, estadual, municipal), observadas as disposições legais da profissão.</p></h4>
+            </div>
           <p className="description">
             <code>MiscWeb-Corporation™ </code>
           </p>
