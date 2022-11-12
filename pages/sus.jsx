@@ -1,21 +1,26 @@
 import Link from "next/link"
-import lgMisc from "./home"
-import navBar from "./home"
-import cadastroBar from "./home"
-import FotoUsuario from "../public/Outros/eu.jpg"
-import ftUser from "./home"
 import Image from "next/future/image"
-import esfHome from "../public/TelaHome/esfHome.png"
+import susHome from "../public/TelaHome/susHome.png"
+import FotoUsuario from "../public/Outros/eu.jpg"
 import LogoGETA from "../public/Outros/logoGETA.png"
 import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.jpg"
 
-const ftEsf = {
-  width: "50%",
+export const ftUser = {
+  width: "7%",
   height: "auto",
   position: "absolute",
-  center: "5.0px",
-  border: "2px solid black",
-  borderRadius: "0% / 0%",
+  left: "1245.8px",
+  top: "130.0px",
+  border: "4px solid white",
+  borderRadius: "100% / 100%",
+}
+const lgMisc = {
+  width: "auto",
+  height: "25%",
+  position: "absolute",
+  left: "350.0px ",
+  background: "",
+  top: "155px",
 }
 
 const lgGETA = {
@@ -27,68 +32,105 @@ const lgGETA = {
   left: "15.0px",
 }
 
+const ftSus = {
+  width: "20%",
+  height: "auto",
+  position: "absolute",
+  left: "50.0px",
+  border: "2px solid black",
+  borderRadius: "0% / 0%",
+}
+
+const navBar = {
+  width: "100%",
+  height: "10%",
+  position: "fixed",
+  borderRadius: "0% / 0%",
+  background: "white",
+  border: "1px solid black",
+}
+
+const cadastroBar = {
+  width: "100%",
+  height: "10%",
+  position: "absolute",
+  borderRadius: "0% / 0%",
+  background: "lightgreen",
+  top: "63px",
+}
+
 export default function Sus() {
   return (
     <>
-      <div className="head">
-        <div>
-          <nav style={{ navBar }}>
-            <Link href="/sus">
-              <a className="navBarSUS"> SUS</a>
-            </Link>
+      <div className="container">
+        <div className="head">
+          <div>
+            <div>
+              <nav style={navBar}>
+                <Link href="/sus">
+                  <a className="navBarSUS">SUS</a>
+                </Link>
+                <Link href="/esf">
+                  <a className="navBarESF">Estratégia Saúde da Familia</a>
+                </Link>
 
-            <Link href="/esf">
-              <a className="navBarESF">Estratégia Saúde da Familia</a>
-            </Link>
+                <Link href="/acoes">
+                  <a className="navBarAcoes">Ações à Comunidade</a>
+                </Link>
+              </nav>
+              <nav style={cadastroBar}>
+                <button className="btCadastrar">Cadastrar</button>
+                <button className="btEntrar">Entrar</button>
+              </nav>
+            </div>
+            <div>
+              <Image src={FotoUsuario} style={ftUser} alt="Foto do Usuário" />
+            </div>
+            <div>
+              <a href="https://geta.omnicesupa.com/">
+                <Image
+                  src={LogoGETA}
+                  style={lgGETA}
+                  alt="Logo do GETA"
+                  sizes="10vw"
+                />
+              </a>
+            </div>
 
-            <Link href="/acoes">
-              <a className="navBarAcoes">Ações à Comunidade</a>
-            </Link>
-          </nav>
-          <nav style={{ cadastroBar }}>
-            <button className="btCadastrar">Cadastrar</button>
-            <button className="btEntrar">Entrar</button>
-          </nav>
+            <div>
+              <a href="/home">
+                <Image
+                  src={LogoMisc}
+                  style={lgMisc}
+                  alt="Logo do MiscWeb"
+                  sizes="10vw"
+                />
+              </a>
+            </div>
+
+            <div className="titulo">Sua plataforma de aprendizado médico</div>
+            <div className="titulo2">Sistema Único de Saúde</div>
+          </div>
         </div>
-        <div>
-          <Image src={FotoUsuario} style={ftUser} alt="Foto do Usuário" />
-        </div>
-        <div>
-          <a href="https://geta.omnicesupa.com/">
-            <Image
-              src={{ LogoGETA }}
-              style={{ lgGETA }}
-              alt="Logo do GETA"
-              sizes="10vw"
+        <main>
+          <div>
+            <Image src={susHome} style={ftSus} alt="Logo SUS" />
+          </div>
+          <p className="description">
+            <code>MiscWeb-Corporation™ </code>
+          </p>
+        </main>
+        <footer>
+          <a href="http://misc.com/" target="pao" rel="noopener noreferrer">
+            Powered by
+            <img
+              src="/miscLogos/MiscWebLogoPreta.jpg"
+              alt="Site Misc"
+              className="logo"
             />
           </a>
-        </div>
-        <div>
-          <a href="/home">
-            <Image
-              src={{ LogoMisc }}
-              style={{ lgMisc }}
-              alt="Logo do MiscWeb"
-              sizes="10vw"
-            />
-          </a>
-        </div>
-
-        <div className="titulo">
-          <h1>Sistema Único de Saúde</h1>
-        </div>
-      </div>
-      <div>
-        <Link href="/esf">
-          <Image
-            src={{ esfHome }}
-            style={{ ftEsf }}
-            alt="Link para a página ESF"
-            sizes="10vw"
-          />
-        </Link>
-      </div>
-      <style jsx>{`
+        </footer>
+        <style jsx>{`
         .container {
           background: #f1ffff;
         }
@@ -109,7 +151,7 @@ export default function Sus() {
         .btEntrar {
           position: absolute;
           borderRadius: 10% / 10%
-          background: beige;
+          backgroundColor: beige;
           left: 1280.0px;
           top: 20px;
           width: auto;
@@ -118,13 +160,21 @@ export default function Sus() {
         .titulo {
           justifyContent: center;
           textAlign: center;
-          padding: 370px;
-          fontsize: 95px;
+          padding: 380px;
+          width: auto;
+          font-size: 100%;
           color: green;
           margin-bottom: 1px;
+          font-weight: 700;
+        }
+        .titulo2 {
+          justifyContent: center;
+          textAlign: center;
+          font-weight: 700;
+          font-size: 50px;
+          color: blue;
         }
         .subTitulo {
-         
           text-align: center;
           color: white;
           font-size: 10px;
@@ -167,6 +217,8 @@ export default function Sus() {
           line-height: 2.3;
           font-size: 1.5rem;
           padding: 140px;
+          text-decoration: underline;
+          color: purple;
         }
         .navBarESF {
           line-height: 2.3;
@@ -241,20 +293,22 @@ export default function Sus() {
           }
         }
       `}</style>
-      <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
 
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
+        <style jsx global>{`
+          html,
+          body {
+            padding: 0;
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+              sans-serif;
+          }
+
+          * {
+            box-sizing: border-box;
+          }
+        `}</style>
+      </div>
     </>
   )
 }
