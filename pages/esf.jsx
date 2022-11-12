@@ -132,10 +132,10 @@ export default function Esf() {
         </footer>
         <style jsx>{`
         .container {
-          background: #f1ffff;
+          background: #F4FFFF;
         }
         .head {
-          background: lightBlue;
+          background: #0D99FF;
           height: auto;
         }
         .btCadastrar {

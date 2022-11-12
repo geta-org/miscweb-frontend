@@ -19,7 +19,7 @@ const lgMisc = {
   height: "25%",
   position: "absolute",
   left: "350.0px ",
-  background: "",
+  background: "white",
   top: "155px",
 }
 
@@ -138,10 +138,10 @@ export default function Acoes() {
         </footer>
         <style jsx>{`
         .container {
-          background: #f1ffff;
+          background: #F4FFFF;
         }
         .head {
-          background: lightBlue;
+          background: #0D99FF;
           height: auto;
         }
         .btCadastrar {

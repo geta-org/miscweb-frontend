@@ -23,6 +23,8 @@ const lgMisc = {
   left: "350.0px ",
   background: "",
   top: "155px",
+  border: "1px solid #fff",
+  borderRadius: "10% / 50%",
 }
 
 const lgGETA = {
@@ -113,7 +115,7 @@ export default function Home() {
                   src={LogoGETA}
                   style={lgGETA}
                   alt="Logo do GETA"
-                  sizes="10vw"
+                  sizes="100%"
                 />
               </a>
             </div>
@@ -123,7 +125,7 @@ export default function Home() {
                   src={LogoMisc}
                   style={lgMisc}
                   alt="Logo do MiscWeb"
-                  sizes="10vw"
+                  sizes="100%"
                 />
               </a>
             </div>
@@ -146,7 +148,7 @@ export default function Home() {
                 src={susHome}
                 style={ftSus}
                 alt="Link para a página SUS"
-                sizes="10vw"
+                sizes="100%"
               />
             </Link>
 
@@ -155,7 +157,7 @@ export default function Home() {
                 src={esfHome}
                 style={ftEsf}
                 alt="Link para a página ESF"
-                sizes="10vw"
+                sizes="100%"
               />
             </Link>
 
@@ -164,7 +166,7 @@ export default function Home() {
                 src={acoesHome}
                 style={ftAcoes}
                 alt="Link para a página Ações à Comunidade"
-                sizes="10vw"
+                sizes="100%"
               />
             </Link>
           </div>
@@ -221,10 +223,10 @@ export default function Home() {
         </footer>
         <style jsx>{`
         .container {
-          background: #f1ffff;
+          background: #F4FFFF;
         }
         .head {
-          background: lightBlue;
+          background: #0D99FF;
           height: auto;
         }
         .btCadastrar {
@@ -251,7 +253,7 @@ export default function Home() {
           textAlign: center;
           padding: 370px;
           fontsize: 95px;
-          color: green;
+          color: #C0FC91;
           margin-bottom: 1px;
         }
         .subTitulo {
