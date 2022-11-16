@@ -88,6 +88,10 @@ export default function Index() {
           >
             <Image alt="Logo MiscWeb" src={LogoSUS} />
           </logosus>
+
+          <titulosus className="titulosus">
+            Sistema Único de Saúde (SUS)
+          </titulosus>
       </main>
 
       <style jsx>{`
@@ -196,18 +200,6 @@ export default function Index() {
         .palavrabold {
           font-weight: bold;
         }
-        .subtitulo {
-          position: absolute;
-          width: 100%;
-          height: 281px;
-          top: 650px;
-          font-family: "Arial";
-          font-style: normal;
-          font-weight: medium;
-          font-size: 22px;
-          text-align: center;
-          color: #635d5d;
-        }
         .titulosus {
           position: absolute;
           width: 100%;
@@ -218,101 +210,6 @@ export default function Index() {
           font-weight: bold;
           font-size: 22px;
           color: #000;
-        }
-        .tituloesf {
-          position: absolute;
-          text-align: center;
-          width: 100%;
-          top: 750px;
-          font-family: "Arial";
-          font-style: normal;
-          font-weight: bold;
-          font-size: 22px;
-          color: #000;
-        }
-        .tituloacoes {
-          position: absolute;
-          left: 925px;
-          top: 750px;
-          font-family: "Arial";
-          font-weight: bold;
-          font-size: 22px;
-          color: #000;
-        }
-        .cardsus {
-          position: absolute;
-          width: 330px;
-          height: 484px;
-          top: 800px;
-          left: 147px;
-          background: #bde3ff;
-          border-radius: 6px;
-          border-style: groove;
-          border-color: #c4c4c4;
-          border-width: 3px;
-        }
-        .cardesf {
-          position: absolute;
-          width: 330px;
-          height: 484px;
-          top: 800px;
-          left: 512px;
-          background: #bde3ff;
-          border-radius: 6px;
-          border-style: groove;
-          border-color: #c4c4c4;
-          border-width: 3px;
-        }
-        .cardacoes {
-          position: absolute;
-          width: 330px;
-          height: 484px;
-          top: 800px;
-          left: 877px;
-          background: #bde3ff;
-          border-radius: 6px;
-          border-style: groove;
-          border-color: #c4c4c4;
-          border-width: 3px;
-        }
-        .resumosus{
-          position: relative;
-          left: 5px;
-          top: 35px;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 20px;
-          text-decoration: underline;
-          line-height: 181.53%;
-          letter-spacing: -0.019em;
-          color: #635D5D;
-        }
-        .resumoesf{
-          position: relative;
-          left: 5px;
-          top: 220px;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 19px;
-          text-decoration: underline;
-          line-height: 181.53%;
-          letter-spacing: -0.019em;
-          color: #635D5D;
-        }
-        .resumoacoes{
-          position: relative;
-          left: 5px;
-          top: 220px;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 18px;
-          text-decoration: underline;
-          line-height: 181.53%;
-          letter-spacing: -0.019em;
-          color: #635D5D;
         }
       `}</style>
     </>
