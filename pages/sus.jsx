@@ -656,7 +656,7 @@ export default function Index() {
         .main {
           position: absolute;
           width: 100%;
-          height: 2819px;
+          height: 16000px;
           background-color: #f0ffff;
         }
         .navbar {
@@ -668,7 +668,7 @@ export default function Index() {
         .cadastrobar {
           position: absolute;
           width: 100%;
-          height: 10%;
+          height: 1%;
           top: 61px;
           background-color: #aff4c6;
         }
@@ -696,7 +696,8 @@ export default function Index() {
           font-size: 24px;
           line-height: 32px;
           letter-spacing: -0.019em;
-          color: #0d99ff;
+          color: #720DB0;
+          text-decoration: underline;
         }
         .esfnav {
           position: absolute;
@@ -720,8 +721,7 @@ export default function Index() {
           font-size: 24px;
           line-height: 32px;
           letter-spacing: -0.019em;
-          color: #720DB0;
-          text-decoration: underline;
+          color: #0d99ff;
         }
         .header {
           position: absolute;
