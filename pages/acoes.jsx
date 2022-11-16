@@ -4,6 +4,8 @@ import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
 import LogoGETA from "../public/Outros/logoGETA.png"
 import LogoAcoes from "../public/TelaHome/Acoes.png"
 import Usuarioft from "../public/Outros/usuarioft.jpg"
+import AtencaoPrisional from "../public/TelaAcoes/atencaoprisional.png"
+
 
 export default function Index() {
   return (
@@ -88,6 +90,183 @@ export default function Index() {
           >
             <Image alt="Logo MiscWeb" src={LogoAcoes} />
           </logoacoes>
+          <tituloacoes className="tituloacoes">
+            Ações Desenvolvidas junto à Comunidade
+          </tituloacoes>
+
+          <introducao className="introducao">
+          Médico na Atenção Primária:
+          </introducao>
+
+          
+        <div className="blocotxt">
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <resumoacoes className="resumoacoes">
+                  O médico generalista ou especialista em Medicina de Família e Comunidade realiza consultas clínicas
+            na Unidade Básica de Saúde, domicílios e/ou demais espaços comunitários
+            (escolas, associações,entre outros).
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+                 Em conformidade com protocolos, diretrizes clínicas e terapêuticas,
+            bem como outras normativas técnicas estabelecidas pelos gestores (federal, estadual, municipal), observadas as disposições legais da profissão.
+          </resumoacoes>
+        </div>
+
+        <titulo1 className="titulo1">Equipe de Atenção Básica Prisional</titulo1>
+        <card1 className="card1">
+          <img1
+            style={{
+              display: "flex",
+              position: "relative",
+              width: "85%",
+              height: "auto",
+              marginLeft: "30px",
+              marginTop: "7.5px",
+            }}
+          >
+             <a href="/sus">
+            <Image alt="Logo SUS" src={AtencaoPrisional} />
+            </a>
+          </img1>
+  
+        </card1>
+
+        <titulo2 className="titulo2">Equipe de Atenção Básica Prisional</titulo2>
+        <card2 className="card2">
+          <img2
+            style={{
+              display: "flex",
+              position: "relative",
+              width: "85%",
+              height: "auto",
+              marginLeft: "27px",
+              marginTop: "7.5px",
+            }}
+          >
+            <Image alt="Logo ESF" src={AtencaoPrisional} />
+          </img2>
+
+        </card2>
+
+        <titulo3 className="titulo3">Equipe de Atenção Básica Prisional</titulo3>
+        <card3 className="card3">
+          <img3
+            style={{
+              display: "flex",
+              position: "relative",
+              width: "85%",
+              height: "auto",
+              marginTop: "7.5px",
+              marginLeft: "30px",
+            }}
+          >
+            <Image alt="Logo Acoes" src={AtencaoPrisional} />
+          </img3>
+
+        </card3>
+        
+        <titulo4 className="titulo4"></titulo4>
+        <card4 className="card4">
+          <img4
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "25%",
+              height: "auto",
+              marginLeft: "70px",
+              marginTop: "573px",
+            }}
+          >
+            <Image alt="Logo SUS" src={AtencaoPrisional} />
+          </img4>
+  
+        </card4>
+
+        <titulo5 className="titulo5"></titulo5>
+        <card5 className="card5">
+          <img5
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "25%",
+              height: "auto",
+              marginLeft: "490px",
+              marginTop: "553px",
+            }}
+          >
+            <Image alt="Logo ESF" src={AtencaoPrisional} />
+          </img5>
+
+        </card5>
+
+        <titulo6 className="titulo6"></titulo6>
+        <card6 className="card6">
+          <img6
+            style={{
+              display: "flex",
+              position: "relative",
+              width: "25%",
+              height: "auto",
+              marginTop: "533px",
+              marginLeft: "930px",
+            }}
+          >
+            <Image alt="Logo Acoes" src={AtencaoPrisional} />
+          </img6>
+  
+        </card6>
+
+        <titulo7 className="titulo7"></titulo7>
+        <card7 className="card7">
+          <img7
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "25%",
+              height: "auto",
+              marginLeft: "70px",
+              marginTop: "85px",
+            }}
+          >
+            <Image alt="Logo SUS" src={AtencaoPrisional} />
+          </img7>
+  
+        </card7>
+
+        <titulo8 className="titulo8"></titulo8>
+        <card8 className="card8">
+          <img8
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "25%",
+              height: "auto",
+              marginLeft: "490px",
+              marginTop: "68px",
+            }}
+          >
+            <Image alt="Logo ESF" src={AtencaoPrisional} />
+
+          </img8>
+        </card8>
+
+        <titulo9 className="titulo9"></titulo9>
+        <card9 className="card9">
+          <img9
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "25%",
+              height: "auto",
+              marginTop: "48px",
+              marginLeft: "930px",
+            }}
+          >
+            <Image alt="Logo Acoes" src={AtencaoPrisional} />
+          </img9>
+        </card9>
+
       </main>
 
       <style jsx>{`
@@ -196,122 +375,254 @@ export default function Index() {
         .palavrabold {
           font-weight: bold;
         }
-        .subtitulo {
-          position: absolute;
-          width: 100%;
-          height: 281px;
-          top: 650px;
-          font-family: "Arial";
-          font-style: normal;
-          font-weight: medium;
-          font-size: 22px;
-          text-align: center;
-          color: #635d5d;
-        }
-        .titulosus {
-          position: absolute;
-          width: 100%;
-          left: 185px;
-          top: 750px;
-          font-family: "Arial";
-          font-style: normal;
-          font-weight: bold;
-          font-size: 22px;
-          color: #000;
-        }
-        .tituloesf {
-          position: absolute;
-          text-align: center;
-          width: 100%;
-          top: 750px;
-          font-family: "Arial";
-          font-style: normal;
-          font-weight: bold;
-          font-size: 22px;
-          color: #000;
-        }
         .tituloacoes {
           position: absolute;
-          left: 925px;
-          top: 750px;
+          left: 360px;
+          top: 1250px;
           font-family: "Arial";
           font-weight: bold;
-          font-size: 22px;
-          color: #000;
-        }
-        .cardsus {
-          position: absolute;
-          width: 330px;
-          height: 484px;
-          top: 800px;
-          left: 147px;
-          background: #bde3ff;
-          border-radius: 6px;
-          border-style: groove;
-          border-color: #c4c4c4;
-          border-width: 3px;
-        }
-        .cardesf {
-          position: absolute;
-          width: 330px;
-          height: 484px;
-          top: 800px;
-          left: 512px;
-          background: #bde3ff;
-          border-radius: 6px;
-          border-style: groove;
-          border-color: #c4c4c4;
-          border-width: 3px;
-        }
-        .cardacoes {
-          position: absolute;
-          width: 330px;
-          height: 484px;
-          top: 800px;
-          left: 877px;
-          background: #bde3ff;
-          border-radius: 6px;
-          border-style: groove;
-          border-color: #c4c4c4;
-          border-width: 3px;
-        }
-        .resumosus{
-          position: relative;
-          left: 5px;
-          top: 35px;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 20px;
           text-decoration: underline;
-          line-height: 181.53%;
-          letter-spacing: -0.019em;
-          color: #635D5D;
+          font-size: 30px;
+          color: #7C2929;
         }
-        .resumoesf{
-          position: relative;
-          left: 5px;
-          top: 220px;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 19px;
-          text-decoration: underline;
-          line-height: 181.53%;
-          letter-spacing: -0.019em;
-          color: #635D5D;
+        .introducao {
+          position: absolute;
+          left: 200px;
+          top: 1450px;
+          font-family: "Arial";
+          font-weight: bold;
+          font-size: 27px;
+          color: #7C2929;
         }
         .resumoacoes{
           position: relative;
-          left: 5px;
-          top: 220px;
+          left: 200px;
+          top: 250px;
+          width: 30%;
           font-family: 'Arial';
           font-style: normal;
           font-weight: 700;
-          font-size: 18px;
-          text-decoration: underline;
+          font-size: 22px;
           line-height: 181.53%;
           letter-spacing: -0.019em;
+          color: #635D5D;
+        }
+        .blocotxt{
+          width: 65%;
+        } 
+        .card1 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 1825px;
+          left: 40px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .card2 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 1825px;
+          left: 459px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .card3 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 1825px;
+          left: 877px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .titulo1 {
+          position: relative;
+          width: 100%;
+          left: 57px;
+          top: 520px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .titulo2 {
+          text-align: center;
+          left: 100px;
+          position: relative;
+          width: 100%;
+          top: 520px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .titulo3 {
+          position: relative;
+          width: 100%;
+          left: 150px;
+          top: 520px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+      } .card4 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 200px;
+          left: 40px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .card5 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 2000px;
+          left: 459px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .card6 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 2000px;
+          left: 877px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .titulo4 {
+          position: absolute;
+          width: 100%;
+          left: 57px;
+          top: 2250px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .titulo5 {
+          position: absolute;
+          text-align: center;
+          Right: 10px;
+          width: 100%;
+          top: 2250px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .titulo6 {
+          position: absolute;
+          left: 895px;
+          top: 2250px;
+          font-family: "Arial";
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .card7 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 3000px;
+          left: 40px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .card8 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 3000px;
+          left: 1459px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .card9 {
+          position: absolute;
+          width: 400px;
+          height: 200px;
+          top: 3000x;
+          left: 1877px;
+          background: #f0ffff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #7C2929;
+          border-width: 3px;
+        }
+        .titulo7 {
+          position: relative;
+          width: 100%;
+          left: 57px;
+          top: 2050px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .titulo8 {
+          position: relative;
+          text-align: center;
+          Right: 10px;
+          width: 100%;
+          top: 2050px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
+          color: #635D5D;
+        }
+        .titulo9 {
+          position: relative;
+          left: 895px;
+          top: 2050px;
+          font-family: "Arial";
+          font-weight: bold;
+          text-decoration: underline;
+          font-size: 22px;
           color: #635D5D;
         }
       `}</style>
