@@ -2,7 +2,7 @@ import Image from "next/image"
 import { Button } from "react-bootstrap"
 import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
 import LogoGETA from "../public/Outros/logoGETA.png"
-import LogoESF from "../public/TelaHome/susHome.png"
+import LogoESF from "../public/TelaHome/esfHome.png"
 import Usuarioft from "../public/Outros/usuarioft.jpg"
 
 export default function Index() {
