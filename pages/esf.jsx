@@ -1,317 +1,320 @@
-import Link from "next/link"
-import Image from "next/future/image"
-import esfHome from "../public/TelaHome/esfHome.png"
-import FotoUsuario from "../public/Outros/eu.jpg"
+import Image from "next/image"
+import { Button } from "react-bootstrap"
+import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
 import LogoGETA from "../public/Outros/logoGETA.png"
-import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.jpg"
+import LogoESF from "../public/TelaHome/esfHome.png"
+import Usuarioft from "../public/Outros/usuarioft.jpg"
 
-export const ftUser = {
-  width: "7%",
-  height: "auto",
-  position: "absolute",
-  left: "1245.8px",
-  top: "130.0px",
-  border: "4px solid white",
-  borderRadius: "100% / 100%",
-}
-const lgMisc = {
-  width: "auto",
-  height: "25%",
-  position: "absolute",
-  left: "350.0px ",
-  background: "",
-  top: "155px",
-}
-
-const lgGETA = {
-  width: "8%",
-  height: "auto",
-  position: "absolute",
-  background: "",
-  top: "130px",
-  left: "15.0px",
-}
-
-const ftEsf = {
-  width: "20%",
-  height: "auto",
-  position: "absolute",
-  left: "50.0px",
-  border: "2px solid black",
-  borderRadius: "0% / 0%",
-}
-
-const navBar = {
-  width: "100%",
-  height: "10%",
-  position: "fixed",
-  borderRadius: "0% / 0%",
-  background: "white",
-  border: "1px solid black",
-}
-
-const cadastroBar = {
-  width: "100%",
-  height: "10%",
-  position: "absolute",
-  borderRadius: "0% / 0%",
-  background: "lightgreen",
-  top: "63px",
-}
-
-export default function Esf() {
+export default function Index() {
   return (
     <>
-      <div className="container">
-        <div className="head">
-          <div>
-            <div>
-              <nav style={navBar}>
-                <Link href="/sus">
-                  <a className="navBarSUS">SUS</a>
-                </Link>
-                <Link href="/esf">
-                  <a className="navBarESF">Estratégia Saúde da Familia</a>
-                </Link>
-
-                <Link href="/acoes">
-                  <a className="navBarAcoes">Ações à Comunidade</a>
-                </Link>
-              </nav>
-              <nav style={cadastroBar}>
-                <button className="btCadastrar">Cadastrar</button>
-                <button className="btEntrar">Entrar</button>
-              </nav>
-            </div>
-            <div>
-              <Image src={FotoUsuario} style={ftUser} alt="Foto do Usuário" />
-            </div>
-            <div>
-              <a href="https://geta.omnicesupa.com/">
-                <Image
-                  src={LogoGETA}
-                  style={lgGETA}
-                  alt="Logo do GETA"
-                  sizes="10vw"
-                />
-              </a>
-            </div>
-
-            <div>
-              <a href="/home">
-                <Image
-                  src={LogoMisc}
-                  style={lgMisc}
-                  alt="Logo do MiscWeb"
-                  sizes="10vw"
-                />
-              </a>
-            </div>
-
-            <div className="titulo">Sua plataforma de aprendizado médico</div>
-            <div className="titulo2">Estratégia Saúde da Família</div>
-          </div>
-        </div>
-        <main>
-          <div>
-            <Image src={esfHome} style={ftEsf} alt="Logo ESF" />
-          </div>
-          <p className="description">
-            <code>MiscWeb-Corporation™ </code>
-          </p>
-        </main>
-        <footer>
-          <a href="http://misc.com/" target="pao" rel="noopener noreferrer">
-            Powered by
-            <img
-              src="/miscLogos/MiscWebLogoPreta.jpg"
-              alt="Site Misc"
-              className="logo"
-            />
+      <main className="main">
+        <navbar className="navbar">
+          <a href="/sus">
+            <sus className="susnav">SUS</sus>
           </a>
-        </footer>
-        <style jsx>{`
-        .container {
-          background: #F4FFFF;
-        }
-        .head {
-          background: #0D99FF;
-          height: auto;
-        }
-        .btCadastrar {
+          <a href="/esf">
+           <esf className="esfnav">Estratégia Saúde da Família</esf>
+          </a>
+          <a href="/acoes">
+            <acoes className="acoesnav">Ações Desenvolvidas</acoes>
+          </a>
+        </navbar>
+
+        <cadastrobar className="cadastrobar">
+          <Button className="btcastatro">Cadastro</Button>
+          <Button className="btentrar">Entrar</Button>
+        </cadastrobar>
+
+        <header className="header">
+          <logomisc
+            style={{
+              display: "flex",
+              width: "47%",
+              height: "auto",
+              margin: "auto",
+              marginTop: "50px",
+            }}
+          >
+            <a href="/home">
+              <Image alt="Logo MiscWeb" src={LogoMisc} />
+            </a>
+          </logomisc>
+          <logogeta
+            style={{
+              position: "absolute",
+              width: "180px",
+              height: "auto",
+              left: "15px",
+              top: "10px",
+            }}
+          >
+            <Image alt="Logo GETA" src={LogoGETA} />
+          </logogeta>
+          <usuarioft
+            style={{
+              width: "7%",
+              height: "auto",
+              position: "absolute",
+              left: "1200px",
+              top: "10px",
+              borderRadius: "100%",
+              border: "4px solid white",
+            }}
+          >
+            <Image alt="Imagem Usuário" src={Usuarioft} />
+          </usuarioft>
+
+          <titulo className="titulo">
+            Sua plataforma de aprendizado digital, para o<br />
+            <span className="letracor"> M</span>
+            <span className="titulocor">ódulo de</span>
+            <span className="letracor"> I</span>
+            <span className="titulocor">nteração em</span>
+            <span className="letracor"> S</span>
+            <span className="titulocor">aúde na</span>
+            <span className="letracor"> C</span>
+            <span className="titulocor">omunidade</span>
+          </titulo>
+        </header>
+        <logoesf
+            style={{
+              display: "flex",
+              width: "47%",
+              height: "auto",
+              margin: "auto",
+              marginTop: "650px",
+            }}
+          >
+            <Image alt="Logo MiscWeb" src={LogoESF} />
+          </logoesf>
+      </main>
+
+      <style jsx>{`
+        .main {
           position: absolute;
-          borderRadius: 10% / 10%
-          background: beige;
-          left: 1200.0px;
-          top: 20px;
-          width: auto;
-          height: 50%;
+          width: 100%;
+          height: 2819px;
+          background-color: #f0ffff;
         }
-        
-        .btEntrar {
+        .navbar {
           position: absolute;
-          borderRadius: 10% / 10%
-          backgroundColor: beige;
-          left: 1280.0px;
-          top: 20px;
-          width: auto;
-          height: 50%;
+          width: 100%;
+          height: 10%;
+          background-color: #fff;
+        }
+        .cadastrobar {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          top: 61px;
+          background-color: #aff4c6;
+        }
+        .btcastatro {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          top: 61px;
+          background-color: lightGreen;
+        }
+        .btentrar {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          top: 61px;
+          background-color: lightGreen;
+        }
+        .susnav {
+          position: absolute;
+          left: 640px;
+          top: 14px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.019em;
+          color: #0d99ff;
+        }
+        .esfnav {
+          position: absolute;
+          left: 750px;
+          top: 14px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.019em;
+          color: #720DB0;
+          text-decoration: underline;
+        }
+        .acoesnav {
+          position: absolute;
+          left: 1100px;
+          top: 14px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.019em;
+          color: #0d99ff;
+        }
+        .header {
+          position: absolute;
+          width: 100%;
+          height: 477.5px;
+          top: 122px;
+          background: #0d99ff;
         }
         .titulo {
-          justifyContent: center;
-          textAlign: center;
-          padding: 380px;
-          width: auto;
-          font-size: 100%;
-          color: green;
-          margin-bottom: 1px;
-          font-weight: 700;
-        }
-        .titulo2 {
-          justifyContent: center;
-          textAlign: center;
-          font-weight: 700;
-          font-size: 50px;
-          color: orange;
-        }
-        .subTitulo {
-          text-align: center;
-          color: white;
-          font-size: 10px;
-          margin-bottom: 100px;
-        }
-        main {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
+          position: absolute;
           width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          height: 281px;
+          top: 300px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 30px;
+          text-align: center;
+          color: #c0fc91;
         }
-
-        footer img {
-          margin-left: 0.5rem;
+        .letracor {
+          color: #fff;
+          font-style: italic;
         }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        .titulocor {
+          position: static;
+          color: #c0fc91;
+          font-style: italic;
+          font-weight: 700;
         }
-
-        a {
-          color: blue;
-          text-decoration: none;
+        .letrabold {
+          font-weight: bold;
         }
-        .description {
-          font-size: 1.5rem;
+        .palavrabold {
+          font-weight: bold;
         }
-        .navBarSUS {
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 140px;
+        .subtitulo {
+          position: absolute;
+          width: 100%;
+          height: 281px;
+          top: 650px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: medium;
+          font-size: 22px;
+          text-align: center;
+          color: #635d5d;
         }
-        .navBarESF {
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 140px;
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 140px;
+        .titulosus {
+          position: absolute;
+          width: 100%;
+          left: 185px;
+          top: 750px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 22px;
+          color: #000;
+        }
+        .tituloesf {
+          position: absolute;
+          text-align: center;
+          width: 100%;
+          top: 750px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 22px;
+          color: #000;
+        }
+        .tituloacoes {
+          position: absolute;
+          left: 925px;
+          top: 750px;
+          font-family: "Arial";
+          font-weight: bold;
+          font-size: 22px;
+          color: #000;
+        }
+        .cardsus {
+          position: absolute;
+          width: 330px;
+          height: 484px;
+          top: 800px;
+          left: 147px;
+          background: #bde3ff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #c4c4c4;
+          border-width: 3px;
+        }
+        .cardesf {
+          position: absolute;
+          width: 330px;
+          height: 484px;
+          top: 800px;
+          left: 512px;
+          background: #bde3ff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #c4c4c4;
+          border-width: 3px;
+        }
+        .cardacoes {
+          position: absolute;
+          width: 330px;
+          height: 484px;
+          top: 800px;
+          left: 877px;
+          background: #bde3ff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #c4c4c4;
+          border-width: 3px;
+        }
+        .resumosus{
+          position: relative;
+          left: 5px;
+          top: 35px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
           text-decoration: underline;
-          color: purple;
+          line-height: 181.53%;
+          letter-spacing: -0.019em;
+          color: #635D5D;
         }
-        .navBarAcoes {
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 10px;
+        .resumoesf{
+          position: relative;
+          left: 5px;
+          top: 220px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19px;
+          text-decoration: underline;
+          line-height: 181.53%;
+          letter-spacing: -0.019em;
+          color: #635D5D;
         }
-
-        code {
-          background: black;
-          color: #50c878;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, BitStream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: red;
-          border: 2px solid steelblue;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: white;
-          border-color: black;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-          color: steelblue;
-        }
-
-        .logo {
-          height: 1.8em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
+        .resumoacoes{
+          position: relative;
+          left: 5px;
+          top: 220px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          text-decoration: underline;
+          line-height: 181.53%;
+          letter-spacing: -0.019em;
+          color: #635D5D;
         }
       `}</style>
-
-        <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-              sans-serif;
-          }
-
-          * {
-            box-sizing: border-box;
-          }
-        `}</style>
-      </div>
     </>
   )
 }

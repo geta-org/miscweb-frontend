@@ -1,395 +1,402 @@
-import Link from "next/link"
-import Image from "next/future/image"
-import susHome from "../public/TelaHome/susHome.png"
-import esfHome from "../public/TelaHome/esfHome.png"
-import acoesHome from "../public/TelaHome/acoesHome.png"
-import FotoUsuario from "../public/Outros/eu.jpg"
+import Image from "next/image"
+import { Button } from "react-bootstrap"
+import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.png"
 import LogoGETA from "../public/Outros/logoGETA.png"
-import LogoMisc from "../public/MiscLogos/MiscWebLogoBranca.jpg"
+import Usuarioft from "../public/Outros/usuarioft.jpg"
+import LogoSUS from "../public/TelaHome/susHome.png"
+import LogoESF from "../public/TelaHome/esfHome.png"
+import Acoes from "../public/TelaHome/Acoes.png"
 
-export const ftUser = {
-  width: "7%",
-  height: "auto",
-  position: "absolute",
-  left: "1245.8px",
-  top: "130.0px",
-  border: "4px solid white",
-  borderRadius: "100% / 100%",
-}
-const lgMisc = {
-  width: "auto",
-  height: "25%",
-  position: "absolute",
-  left: "350.0px ",
-  background: "",
-  top: "155px",
-  border: "1px solid #fff",
-  borderRadius: "10% / 50%",
-}
-
-const lgGETA = {
-  width: "8%",
-  height: "auto",
-  position: "absolute",
-  background: "",
-  top: "130px",
-  left: "15.0px",
-}
-
-const ftSus = {
-  width: "20%",
-  height: "auto",
-  position: "absolute",
-  left: "50.0px",
-  border: "2px solid black",
-  borderRadius: "0% / 0%",
-}
-
-const ftEsf = {
-  width: "20%",
-  height: "auto",
-  position: "absolute",
-  Left: "50.0px",
-  border: "2px solid black",
-  borderRadius: "0% / 0%",
-}
-
-const ftAcoes = {
-  width: "20%",
-  height: "auto",
-  position: "absolute",
-  right: "50.0px",
-  border: "2px solid black",
-  borderRadius: "0% / 0%",
-}
-
-const navBar = {
-  width: "100%",
-  height: "10%",
-  position: "fixed",
-  borderRadius: "0% / 0%",
-  background: "white",
-  border: "1px solid black",
-}
-
-const cadastroBar = {
-  width: "100%",
-  height: "10%",
-  position: "absolute",
-  borderRadius: "0% / 0%",
-  background: "lightgreen",
-  top: "63px",
-}
-
-export default function Home() {
+export default function Index() {
   return (
     <>
-      <div className="container">
-        <div className="head">
-          <div>
-            <div>
-              <nav style={navBar}>
-                <Link href="/sus">
-                  <a className="navBarSUS">SUS</a>
-                </Link>
-
-                <Link href="/esf">
-                  <a className="navBarESF">Estratégia Saúde da Familia</a>
-                </Link>
-
-                <Link href="/acoes">
-                  <a className="navBarAcoes">Ações à Comunidade</a>
-                </Link>
-              </nav>
-              <nav style={cadastroBar}>
-                <button className="btCadastrar">Cadastrar</button>
-                <button className="btEntrar">Entrar</button>
-              </nav>
-            </div>
-            <div>
-              <Image src={FotoUsuario} style={ftUser} alt="Foto do Usuário" />
-            </div>
-            <div>
-              <a href="https://geta.omnicesupa.com/">
-                <Image
-                  src={LogoGETA}
-                  style={lgGETA}
-                  alt="Logo do GETA"
-                  sizes="100%"
-                />
-              </a>
-            </div>
-            <div>
-              <a href="/home">
-                <Image
-                  src={LogoMisc}
-                  style={lgMisc}
-                  alt="Logo do MiscWeb"
-                  sizes="100%"
-                />
-              </a>
-            </div>
-
-            <div className="titulo">
-              <h1>Sua plataforma de aprendizado médico</h1>
-            </div>
-
-            <div className="subTitulo">
-              <p className="description">
-                Conheça mais sobre as páginas de educação médica abaixo:
-              </p>
-            </div>
-          </div>
-        </div>
-        <main>
-          <div>
-            <Link href="/sus">
-              <Image
-                src={susHome}
-                style={ftSus}
-                alt="Link para a página SUS"
-                sizes="100%"
-              />
-            </Link>
-
-            <Link href="/esf">
-              <Image
-                src={esfHome}
-                style={ftEsf}
-                alt="Link para a página ESF"
-                sizes="100%"
-              />
-            </Link>
-
-            <Link href="/acoes">
-              <Image
-                src={acoesHome}
-                style={ftAcoes}
-                alt="Link para a página Ações à Comunidade"
-                sizes="100%"
-              />
-            </Link>
-          </div>
-
-          <div className="grid">
-            <a
-              href="https://profes.com.br/aulas-particulares/medicina"
-              className="card"
-            >
-              <h3>Professores ⇒</h3>
-              <p>
-                Escolha a o profissional que melhor atende a seus objetivos.
-              </p>
-            </a>
-
-            <a
-              href="https://blog.estacio.br/medicina/perfil-do-estudante-de-medicina/"
-              className="card"
-            >
-              <h3>Alunos ⇒</h3>
-              <p>
-                Aprenda mais sobre o perfil ideal para um estudante de Medicina!
-              </p>
-            </a>
-
-            <a
-              href="https://www.cesupa.br/Graduacao/Biologicas/med.asp"
-              className="card"
-            >
-              <h3>Estrutura ⇒</h3>
-              <p>O que esperar encontrar no campus da faculdade?</p>
-            </a>
-
-            <a href="https://bit.ly/3qzikm8" className="card">
-              <h3>Especializações ⇒</h3>
-              <p>
-                Conheça mais sobre a área medicinal que tens mais afinidade.
-              </p>
-            </a>
-          </div>
-          <p className="description">
-            <code>MiscWeb-Corporation™ </code>
-          </p>
-        </main>
-        <footer>
-          <a href="http://misc.com/" target="pao" rel="noopener noreferrer">
-            Powered by
-            <img
-              src="/miscLogos/MiscWebLogoPreta.jpg"
-              alt="Site Misc"
-              className="logo"
-            />
+      <main className="main">
+        <navbar className="navbar">
+          <a href="/sus">
+            <sus className="susnav">SUS</sus>
           </a>
-        </footer>
-        <style jsx>{`
-        .container {
-          background: #F4FFFF;
-        }
-        .head {
-          background: #0D99FF;
-          height: auto;
-        }
-        .btCadastrar {
+          <a href="/esf">
+           <esf className="esfnav">Estratégia Saúde da Família</esf>
+          </a>
+          <a href="/acoes">
+            <acoes className="acoesnav">Ações Desenvolvidas</acoes>
+          </a>
+        </navbar>
+
+        <cadastrobar className="cadastrobar">
+          <Button className="btcastatro">Cadastro</Button>
+          <Button className="btentrar">Entrar</Button>
+        </cadastrobar>
+
+        <header className="header">
+          <logomisc
+            style={{
+              display: "flex",
+              width: "47%",
+              height: "auto",
+              margin: "auto",
+              marginTop: "50px",
+            }}
+          > 
+            <a href="/home">
+              <Image alt="Logo MiscWeb" src={LogoMisc} />
+            </a>
+          </logomisc>
+          <logogeta
+            style={{
+              position: "absolute",
+              width: "180px",
+              height: "auto",
+              left: "15px",
+              top: "10px",
+            }}
+          >
+            <Image alt="Logo GETA" src={LogoGETA} />
+          </logogeta>
+          <usuarioft
+            style={{
+              width: "7%",
+              height: "auto",
+              position: "absolute",
+              left: "1200px",
+              top: "10px",
+              borderRadius: "100%",
+              border: "4px solid white",
+            }}
+          >
+            <Image alt="Imagem Usuário" src={Usuarioft} />
+          </usuarioft>
+
+          <titulo className="titulo">
+            Sua plataforma de aprendizado digital, para o<br />
+            <span className="letracor"> M</span>
+            <span className="titulocor">ódulo de</span>
+            <span className="letracor"> I</span>
+            <span className="titulocor">nteração em</span>
+            <span className="letracor"> S</span>
+            <span className="titulocor">aúde na</span>
+            <span className="letracor"> C</span>
+            <span className="titulocor">omunidade</span>
+          </titulo>
+        </header>
+
+        <subtitulo className="subtitulo">
+          Selecione uma das
+          <span className="palavrabold"> páginas</span> de educação
+          <span className="palavrabold"> médica</span>, disponíveis abaixo:
+        </subtitulo>
+
+        <titulosus className="titulosus">Sistema Único de Saúde</titulosus>
+        <cardsus className="cardsus">
+          <logosus
+            style={{
+              display: "flex",
+              position: "relative",
+              width: "85%",
+              height: "auto",
+              marginLeft: "25px",
+              marginTop: "40px",
+            }}
+          >
+             <a href="/sus">
+            <Image alt="Logo SUS" src={LogoSUS} />
+            </a>
+          </logosus>
+          
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <resumosus className="resumosus">
+           <a href="/sus">
+            É um dos maiores e mais complexos sistemas de saúde pública do mundo,
+            abrangendo desde o simples atendimento para aferição da pressão arterial,
+            por meio da Atenção Primária, até o transplante de órgãos.
+            </a>
+          </resumosus>
+        </cardsus>
+
+        <tituloesf className="tituloesf">Estratégia Saúde da Família</tituloesf>
+        <cardesf className="cardesf">
+          <logoesf
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "65%",
+              height: "auto",
+              marginLeft: "55px",
+              marginTop: "25px",
+            }}
+          >
+             <a href="/esf">
+            <Image alt="Logo ESF" src={LogoESF} />
+            </a>
+
+          </logoesf>
+
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <resumoesf className="resumoesf">
+           <a href="/esf">
+            Visa à reorganização da atenção primária no País, de acordo com os preceitos do SUS. 
+            É uma estratégia de expansão, qualificação e consolidação da atenção primária.
+            </a>
+          </resumoesf>
+
+        </cardesf>
+
+        <tituloacoes className="tituloacoes">Ações Desenvolvidas</tituloacoes>
+        <cardacoes className="cardacoes">
+          <logoacoes
+            style={{
+              display: "flex",
+              position: "absolute",
+              width: "63%",
+              height: "auto",
+              marginTop: "10px",
+              marginLeft: "60px",
+            }}
+          >
+            <a href="/acoes">
+            <Image alt="Logo Acoes" src={Acoes} />
+            </a>
+          </logoacoes>
+
+          <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <resumoacoes className="resumoacoes">
+           <a href="/acoes">
+            O médico generalista ou especialista em Medicina de Família e Comunidade
+            realiza consultas clínicas na Unidade Básica de Saúde, domicílios  
+            e/ou demais espaços comunitários.
+           </a>
+          </resumoacoes>
+
+        </cardacoes>
+      </main>
+
+      <style jsx>{`
+        .main {
           position: absolute;
-          borderRadius: 10% / 10%
-          background: beige;
-          left: 1200.0px;
-          top: 20px;
-          width: auto;
-          height: 50%;
+          width: 100%;
+          height: 2819px;
+          background-color: #f0ffff;
         }
-        
-        .btEntrar {
+        .navbar {
           position: absolute;
-          borderRadius: 10% / 10%
-          background: beige;
-          left: 1280.0px;
-          top: 20px;
-          width: auto;
-          height: 50%;
+          width: 100%;
+          height: 10%;
+          background-color: #fff;
+        }
+        .cadastrobar {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          top: 61px;
+          background-color: #aff4c6;
+        }
+        .btcastatro {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          top: 61px;
+          background-color: lightGreen;
+        }
+        .btentrar {
+          position: absolute;
+          width: 100%;
+          height: 10%;
+          top: 61px;
+          background-color: lightGreen;
+        }
+        .susnav {
+          position: absolute;
+          left: 640px;
+          top: 14px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.019em;
+          color: #0d99ff;
+        }
+        .esfnav {
+          position: absolute;
+          left: 750px;
+          top: 14px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.019em;
+          color: #0d99ff;
+        }
+        .acoesnav {
+          position: absolute;
+          left: 1100px;
+          top: 14px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 32px;
+          letter-spacing: -0.019em;
+          color: #0d99ff;
+        }
+        .header {
+          position: absolute;
+          width: 100%;
+          height: 477.5px;
+          top: 122px;
+          background: #0d99ff;
         }
         .titulo {
-          justifyContent: center;
-          textAlign: center;
-          padding: 370px;
-          fontsize: 95px;
-          color: #C0FC91;
-          margin-bottom: 1px;
-        }
-        .subTitulo {
-         
-          text-align: center;
-          color: white;
-          font-size: 10px;
-          margin-bottom: 100px;
-        }
-        main {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer {
+          position: absolute;
           width: 100%;
-          height: 100px;
-          border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          height: 281px;
+          top: 300px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 30px;
+          text-align: center;
+          color: #c0fc91;
         }
-
-        footer img {
-          margin-left: 0.5rem;
+        .letracor {
+          color: #fff;
+          font-style: italic;
         }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+        .titulocor {
+          position: static;
+          color: #c0fc91;
+          font-style: italic;
+          font-weight: 700;
         }
-
-        a {
-          color: blue;
-          text-decoration: none;
+        .letrabold {
+          font-weight: bold;
         }
-        .description {
-          font-size: 1.5rem;
+        .palavrabold {
+          font-weight: bold;
         }
-        .navBarSUS {
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 140px;
+        .subtitulo {
+          position: absolute;
+          width: 100%;
+          height: 281px;
+          top: 650px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: medium;
+          font-size: 22px;
+          text-align: center;
+          color: #635d5d;
         }
-        .navBarESF {
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 140px;
+        .titulosus {
+          position: absolute;
+          width: 100%;
+          left: 185px;
+          top: 750px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 22px;
+          color: #000;
         }
-        .navBarAcoes {
-          line-height: 2.3;
-          font-size: 1.5rem;
-          padding: 10px;
+        .tituloesf {
+          position: absolute;
+          text-align: center;
+          width: 100%;
+          top: 750px;
+          font-family: "Arial";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 22px;
+          color: #000;
         }
-
-        code {
-          background: black;
-          color: #50c878;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, BitStream Vera Sans Mono, Courier New, monospace;
+        .tituloacoes {
+          position: absolute;
+          left: 925px;
+          top: 750px;
+          font-family: "Arial";
+          font-weight: bold;
+          font-size: 22px;
+          color: #000;
         }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
+        .cardsus {
+          position: absolute;
+          width: 330px;
+          height: 484px;
+          top: 800px;
+          left: 147px;
+          background: #bde3ff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #c4c4c4;
+          border-width: 3px;
         }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: red;
-          border: 2px solid steelblue;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
+        .cardesf {
+          position: absolute;
+          width: 330px;
+          height: 484px;
+          top: 800px;
+          left: 512px;
+          background: #bde3ff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #c4c4c4;
+          border-width: 3px;
         }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: white;
-          border-color: black;
+        .cardacoes {
+          position: absolute;
+          width: 330px;
+          height: 484px;
+          top: 800px;
+          left: 877px;
+          background: #bde3ff;
+          border-radius: 6px;
+          border-style: groove;
+          border-color: #c4c4c4;
+          border-width: 3px;
         }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
+        .resumosus{
+          position: relative;
+          left: 5px;
+          top: 35px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          text-decoration: underline;
+          line-height: 181.53%;
+          letter-spacing: -0.019em;
+          color: #635D5D;
         }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-          color: steelblue;
+        .resumoesf{
+          position: relative;
+          left: 5px;
+          top: 220px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19px;
+          text-decoration: underline;
+          line-height: 181.53%;
+          letter-spacing: -0.019em;
+          color: #635D5D;
         }
-
-        .logo {
-          height: 1.8em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
+        .resumoacoes{
+          position: relative;
+          left: 5px;
+          top: 220px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          text-decoration: underline;
+          line-height: 181.53%;
+          letter-spacing: -0.019em;
+          color: #635D5D;
         }
       `}</style>
-
-        <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-              sans-serif;
-          }
-
-          * {
-            box-sizing: border-box;
-          }
-        `}</style>
-      </div>
     </>
   )
 }
