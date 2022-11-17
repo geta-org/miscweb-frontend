@@ -60,7 +60,7 @@ export default function Index() {
               position: "absolute",
               left: "1200px",
               top: "10px",
-              borderRadius: "100%",
+              borderRadius: "8%",
               border: "4px solid white",
             }}
           >
@@ -175,9 +175,9 @@ export default function Index() {
 
       <style jsx>{`
         .main {
-          position: absolute;
+         position: absolute;
           width: 100%;
-          height: 2819px;
+          height: 5900px;
           background-color: #f0ffff;
         }
         .navbar {
@@ -189,14 +189,14 @@ export default function Index() {
         .cadastrobar {
           position: absolute;
           width: 100%;
-          height: 10%;
+          height: 2%;
           top: 61px;
           background-color: #aff4c6;
         }
         .btcastatro {
           position: absolute;
           width: 100%;
-          height: 10%;
+          height: auto;
           top: 61px;
           background-color: lightGreen;
         }

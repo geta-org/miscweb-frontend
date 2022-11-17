@@ -59,7 +59,7 @@ export default function Index() {
               position: "absolute",
               left: "1200px",
               top: "10px",
-              borderRadius: "100%",
+              borderRadius: "8%",
               border: "4px solid white",
             }}
           >
@@ -626,72 +626,6 @@ export default function Index() {
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <resumoacoes className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
             Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
@@ -707,76 +641,7 @@ export default function Index() {
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <resumoacoes className="resumoacoes">
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
-            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp;&nbsp;&nbsp;</span>
-            Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
-            modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
-            Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
-            ut rerum accusantium. Ut beatae quia ut nesciunt sint aut fugit doloribus a voluptas nesciunt hic libero 
-            aperiam ut quia perspiciatis. Et nulla odio ut unde quos et internos expedita est commodi incidunt 
-            At praesentium optio quo saepe deleniti.
-            Ea eius autem ut maxime perferendis eos necessitatibus labore et corrupti ducimus quo officia officia. 
-            Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
-            Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
-            qui omnis quod est soluta exercitationem rem totam vitae.
+           
             </resumoacoes>
           </div>
 
@@ -786,7 +651,7 @@ export default function Index() {
         .main {
           position: absolute;
           width: 100%;
-          height: 21500px;
+          height: 16750px;
           background-color: #f0ffff;
         }
         .navbar {
@@ -964,7 +829,7 @@ export default function Index() {
         .subintroducao4 {
           position: absolute;
           left: 200px;
-          top: 5500px;
+          top: 5550px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -973,7 +838,7 @@ export default function Index() {
         .subintroducao5 {
           position: absolute;
           left: 200px;
-          top: 6100px;
+          top: 6150px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -991,7 +856,7 @@ export default function Index() {
         .subintroducao7 {
           position: absolute;
           left: 200px;
-          top: 9700px;
+          top: 9750px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1000,7 +865,7 @@ export default function Index() {
         .subintroducao8 {
           position: absolute;
           left: 200px;
-          top: 10800px;
+          top: 10840px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1009,7 +874,7 @@ export default function Index() {
         .subintroducao9 {
           position: absolute;
           left: 200px;
-          top: 11400px;
+          top: 11440px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1018,7 +883,7 @@ export default function Index() {
         .subintroducao10 {
           position: absolute;
           left: 200px;
-          top: 12500px;
+          top: 12520px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -1027,7 +892,7 @@ export default function Index() {
         .subintroducao11 {
           position: absolute;
           left: 200px;
-          top: 14050px;
+          top: 14070px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;

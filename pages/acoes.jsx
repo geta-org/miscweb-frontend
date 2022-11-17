@@ -60,7 +60,7 @@ export default function Index() {
               position: "absolute",
               left: "1200px",
               top: "10px",
-              borderRadius: "100%",
+              borderRadius: "8%",
               border: "4px solid white",
             }}
           >
