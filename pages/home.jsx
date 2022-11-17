@@ -183,7 +183,7 @@ export default function Index() {
         .navbar {
           position: absolute;
           width: 100%;
-          height: 10%;
+          height: 1%;
           background-color: #fff;
         }
         .cadastrobar {

@@ -742,13 +742,13 @@ export default function Index() {
         .main {
           position: absolute;
           width: 100%;
-          height: 16000px;
+          height: 21500px;
           background-color: #f0ffff;
         }
         .navbar {
           position: absolute;
           width: 100%;
-          height: 10%;
+          height: 1%;
           background-color: #fff;
         }
         .cadastrobar {
@@ -846,8 +846,8 @@ export default function Index() {
         }
         .tituloacoes {
           position: absolute;
-          left: 360px;
-          top: 1000px;
+          left: 430px;
+          top: 1200px;
           font-family: "Arial";
           font-weight: bold;
           text-decoration: underline;
@@ -857,7 +857,7 @@ export default function Index() {
         .introducao {
           position: absolute;
           left: 200px;
-          top: 1150px;
+          top: 1300px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -866,7 +866,7 @@ export default function Index() {
         .introducao1 {
           position: absolute;
           left: 200px;
-          top: 1550px;
+          top: 1365px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -875,7 +875,7 @@ export default function Index() {
         .introducao2 {
           position: absolute;
           left: 200px;
-          top: 2050px;
+          top: 2150px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -893,7 +893,7 @@ export default function Index() {
         .subintroducao1 {
           position: absolute;
           left: 200px;
-          top: 2150px;
+          top: 2200px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -902,7 +902,7 @@ export default function Index() {
         .subintroducao2 {
           position: absolute;
           left: 200px;
-          top: 3000px;
+          top: 3350px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;

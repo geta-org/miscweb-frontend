@@ -656,7 +656,7 @@ export default function Index() {
         .main {
           position: absolute;
           width: 100%;
-          height: 16000px;
+          height: 15400px;
           background-color: #f0ffff;
         }
         .navbar {
@@ -798,7 +798,7 @@ export default function Index() {
         .introducao3 {
           position: absolute;
           left: 200px;
-          top: 8200px;
+          top: 8000px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -834,7 +834,7 @@ export default function Index() {
         .subintroducao4 {
           position: absolute;
           left: 200px;
-          top: 5300px;
+          top: 5200px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -843,7 +843,7 @@ export default function Index() {
         .subintroducao5 {
           position: absolute;
           left: 200px;
-          top: 5900px;
+          top: 5750px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -852,7 +852,7 @@ export default function Index() {
         .subintroducao6 {
           position: absolute;
           left: 200px;
-          top: 8300px;
+          top: 8100px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -861,7 +861,7 @@ export default function Index() {
         .subintroducao7 {
           position: absolute;
           left: 200px;
-          top: 9400px;
+          top: 9200px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -870,7 +870,7 @@ export default function Index() {
         .subintroducao8 {
           position: absolute;
           left: 200px;
-          top: 10400px;
+          top: 10200px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -879,7 +879,7 @@ export default function Index() {
         .subintroducao9 {
           position: absolute;
           left: 200px;
-          top: 11350px;
+          top: 11150px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -888,7 +888,7 @@ export default function Index() {
         .subintroducao10 {
           position: absolute;
           left: 200px;
-          top: 12400px;
+          top: 12200px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -897,7 +897,7 @@ export default function Index() {
         .subintroducao11 {
           position: absolute;
           left: 200px;
-          top: 14050px;
+          top: 13800px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
