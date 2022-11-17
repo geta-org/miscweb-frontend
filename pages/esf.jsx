@@ -218,6 +218,12 @@ export default function Index() {
             qui omnis quod est soluta exercitationem rem totam vitae.
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -251,6 +257,12 @@ export default function Index() {
           <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <resumoacoes className="resumoacoes">
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -261,6 +273,12 @@ export default function Index() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
@@ -373,6 +391,12 @@ export default function Index() {
             qui omnis quod est soluta exercitationem rem totam vitae.
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -395,6 +419,8 @@ export default function Index() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             </resumoacoes>
           </div>
 
@@ -426,6 +452,12 @@ export default function Index() {
             qui omnis quod est soluta exercitationem rem totam vitae.
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
             modi voluptatem aut dolor veniam? In iure molestiae aut quidem aspernatur a illum impedit aut cumque corrupti.
             Aut repellat rerum aut officia rerum rem sunt labore ut placeat quasi id dolorem quia sed ipsam error 
@@ -448,6 +480,12 @@ export default function Index() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             </resumoacoes>
           </div>
 
@@ -493,6 +531,12 @@ export default function Index() {
             Eos omnis beatae id dolorem similique id voluptatibus sapiente ut dignissimos voluptatum. 
             Ea sint similique aut velit laborum et enim fugiat est totam illo. Et minima laudantium ut minima beatae 
             qui omnis quod est soluta exercitationem rem totam vitae.
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;</span>
             <br/><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;</span>
             Lorem ipsum dolor sit amet. Et numquam expedita ut vero vitae qui impedit omnis est beatae dolores aut 
@@ -884,7 +928,7 @@ export default function Index() {
         .introducao3 {
           position: absolute;
           left: 200px;
-          top: 8200px;
+          top: 7650px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -911,7 +955,7 @@ export default function Index() {
         .subintroducao3 {
           position: absolute;
           left: 200px;
-          top: 4350px;
+          top: 4450px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -920,7 +964,7 @@ export default function Index() {
         .subintroducao4 {
           position: absolute;
           left: 200px;
-          top: 5300px;
+          top: 5500px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -929,7 +973,7 @@ export default function Index() {
         .subintroducao5 {
           position: absolute;
           left: 200px;
-          top: 5900px;
+          top: 6100px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -938,7 +982,7 @@ export default function Index() {
         .subintroducao6 {
           position: absolute;
           left: 200px;
-          top: 8300px;
+          top: 7730px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -947,7 +991,7 @@ export default function Index() {
         .subintroducao7 {
           position: absolute;
           left: 200px;
-          top: 9400px;
+          top: 9700px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -956,7 +1000,7 @@ export default function Index() {
         .subintroducao8 {
           position: absolute;
           left: 200px;
-          top: 10400px;
+          top: 10800px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -965,7 +1009,7 @@ export default function Index() {
         .subintroducao9 {
           position: absolute;
           left: 200px;
-          top: 11350px;
+          top: 11400px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
@@ -974,7 +1018,7 @@ export default function Index() {
         .subintroducao10 {
           position: absolute;
           left: 200px;
-          top: 12400px;
+          top: 12500px;
           font-family: "Arial";
           font-weight: bold;
           font-size: 27px;
